@@ -73,17 +73,21 @@
 {\pgline
 {\centering
 \textbf{BIOGRAPHICAL SKETCH}\\
-{\footnotesize
-Provide the following information for the Senior/key personnel and other significant contributors.\\
-Follow this format for each person.  \textbf{DO NOT EXCEED FIVE PAGES}.\\}}
+% {\footnotesize
+% Provide the following information for the Senior/key personnel and other significant contributors.\\
+% Follow this format for each person.  \textbf{DO NOT EXCEED FIVE PAGES}.\\}
+    
+}
 \pgline
 NAME: \@name\\
 \pgline
 eRA COMMONS USER NAME (credential, e.g., agency login): \@eracommons\\
 \pgline
 POSITION TITLE: \@position\\
-\pgline
-EDUCATION/TRAINING (\textit{Begin with baccalaureate or other initial professional education, such as nursing, include postdoctoral training and residency training if applicable. Add/delete rows as necessary.})\\}
+% \pgline
+%  EDUCATION/TRAINING (\textit{Begin with baccalaureate or other initial professional education, such as nursing, include postdoctoral training and residency training if applicable. Add/delete rows as necessary.})
+%  \\
+}
 
 \newcommand{\grantinfo}[6]
 {\begin{tabular}{@{}lll@{}}
